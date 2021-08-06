@@ -1,0 +1,291 @@
+/* Top Layer - 0 */
+
+.App
+{
+  text-align: center;
+  justify-items: center;
+}
+
+.Link
+{
+  text-decoration: underline;
+  font-size-adjust: initial;
+}
+
+.StorySkeleton
+{
+  width: 50px;
+  height: 50px;
+}
+
+.SuggestedSkeleton
+{
+  width: 50px;
+  height: 50px;
+}
+
+.FeedSkeleton
+{
+  width: 50px;
+  height: 50px;
+}
+
+/* 
+HEADER & SUBCOMPONENTS 
+
+Indentation used to differentiate between layers  
+*/
+
+/* 1st Layer */
+.Header 
+{
+  max-width: 100vw;
+  min-width: 100vw;
+}
+
+
+    /* 2st Layer */
+    .HeaderToolbar
+    {
+      border-color: rgb(160, 160, 160);
+      border-style: ridge;
+      max-width: 100vw;
+      min-width: 100vw;
+      max-height: 80px;
+      box-sizing: border-box;
+      justify-content: space-evenly;
+    }
+
+    .IconToolbar
+    {
+      flex: auto;
+      position: relative;
+      max-height: 80px;
+      box-sizing: border-box;
+      max-width: 15vw;
+      min-width: 15vw;
+    }
+
+      /* Third Layer */
+      .Icon
+        {
+          margin-left: 10px;
+          margin-right: 10px;
+          display: flex;
+        }
+            /* Fourth Layer */
+            .favourite
+            {
+              height: 5vw;
+              width: 5vw;
+              color: black;
+              display: flex;
+            }
+          
+            .home 
+            {
+              height: 5vw;
+              width: 5vw;
+              border-radius: 50%;
+              color: black;
+              display: flex;
+            }
+          
+            .profile
+            {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              display: flex;
+            }
+
+      /* Third Layer */
+      .logo 
+      {
+        flex: static;
+        max-width: 150px;
+        min-width: 150px;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+
+      .Searchbar 
+      {
+        min-width: 50px;
+        max-width: 350px;
+        border: gray;
+        border-style: solid;
+        flex: auto;
+        position: relative;
+        box-sizing: border-box;
+      }
+
+
+
+/*
+MAIN CONTAINER
+*/
+
+/* 1st Layer */
+
+/* .AppGridContainer
+{
+
+} */
+
+      /* 2nd Layer */
+
+      /* .GridMain
+      {
+
+      } */
+
+        /* 3rd Layer */
+
+        .MainContainer
+        {
+          margin-top: 100px;
+        }
+
+          /* 4th Layer */
+          .MainToolbar
+          {
+            width: 60vw;
+            flex-direction: row;
+            align-content: flex-start;
+            margin-top: 100px;
+          }
+
+
+            /* 5th Layer */
+            .Stories
+            {
+              flex: auto;
+              height: 10vh;
+              min-height: 120px;
+              width: 55vw;
+              margin-top: 30px;
+              flex-direction: row;
+              overflow-x: auto;
+            }
+
+              /* 6th Layer */
+              /* .StoryToolbar
+              {
+
+              } */
+
+                /* 7th Layer */
+                /* .StoryContainer
+                {
+                  
+                } */
+
+                  /* 8th Layer */
+                  .Story
+                  {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    border-color: orange;
+                    border-style: solid;
+                  }
+
+
+            /* 5th Layer */
+            /* .Feed
+            {
+
+            } */
+
+              /* 6th Layer */
+              .Post
+              {
+                margin-top: 60px;
+                margin-bottom: 60px;
+                width: 55vw;
+              }
+                /* 7th Layer */
+                /* .CardHeader
+                {
+                  
+                } */
+
+                .PostImage
+                {
+                  flex-direction: column;
+                  min-height: 60vh;
+                  width: 55vw;
+                }
+                  /* 8th Layer */
+                  .LikesProfile
+                  {
+                    width: 1vw;
+                    height: 1vw;
+                    border-radius: 50%;
+                  }
+            
+                  .LikesText
+                  {
+                    padding-left: 10px;
+                    font-style: italic;
+                  }
+            
+                /* 7th Layer */
+                .cardFooter
+                {
+                  min-height: 20vh;
+                  margin-bottom: 60px;
+                }
+
+      /* 2nd Layer */         
+      /* .GridSide
+      {
+
+      } */
+
+        /* 3rd Layer */
+        .SideBarContainer
+        {
+          flex-direction: row;
+          margin-top: 100px;
+          width: 20vw;
+        }
+
+          /* 4th Layer */
+          /* .SideBarToolbar
+          {
+
+          } */
+
+            .ProfileToolbar
+            {
+              margin-bottom: 20px;
+            }
+
+            .Suggested
+            {
+              width: 3vw;
+              height: 3vw;
+              border-radius: 50%;
+            }
+
+            .Profile
+            {
+              width: 4vw;
+              height: 4vw;
+              border-radius: 50%;
+              border-color: green;
+              border-style: solid;
+            }
+            
+
+.SideBar
+{
+  max-width: 15vw;
+  margin-top: 30px;
+}
+
+
+

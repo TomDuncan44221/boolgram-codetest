@@ -1,3 +1,30 @@
+
+# Tom's Readme
+
+Hey! Thanks for the invite to create this! 
+
+As a forewarning, I checked on a hunch if I could locate the repo for this to acquire the assests for use - https://github.com/Danilo91Colloca/boolgram
+
+I definitely could find it!  - You may wish to consider making more of this private or just making the assets public facing
+ (unless part of the test is to see how strong my google-fu is)
+ Don't worry, I didn't go exploring beyond the assets folder in case there was an answer sheet or something
+
+// Notes
+
+- I chose JS because I wrote this in a rush due to time constraints, as much as I love typing and it pains me to use JS - meeting the 'deadline' came first. 
+- I've opted to use Materiel UI as I'm most familiar with it
+- The skeleton is implemented but I didn't have enough spare time to tweak it to match the appearance, sorry! 
+- I wasn't sure if the goal was to identically replicate or produce your own flair, so I went with my own flair.
+- I'm sure there are even more ways to make my code more reusable but I've got a deadline to meet - I'd like to breakdown posts into a few more components
+- I am constantly sad that I want to put more time into this but really shouldn't
+- Please be kind!
+
+Below is the create-react-app guff, enjoy!
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
